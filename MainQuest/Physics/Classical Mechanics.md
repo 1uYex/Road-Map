@@ -2,7 +2,7 @@
 type: quest
 domain: Physics
 status: active
-tier: 3
+tier: 4
 order: 10
 prerequisite: Calculus tier 2
 unlock_condition: Calculus tier 2
