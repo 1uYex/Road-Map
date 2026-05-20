@@ -1,0 +1,5 @@
+{
+  "folder": "DailyLogs",
+  "template": "00_System/Templates/Daily Progress Log Template.md",
+  "format": "YYYY-MM-DD"
+}

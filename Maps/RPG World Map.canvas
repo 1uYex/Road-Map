@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"main","type":"file","file":"MainQuest/00 Main Quest - Become a Computational Theoretical Physicist.md","x":0,"y":0,"width":520,"height":220,"color":"#d8d8d8"},
+		{"id":"math","type":"file","file":"MainQuest/Mathematics/MQ - Mathematics.md","x":-720,"y":-260,"width":420,"height":220,"color":"#6f8193"},
+		{"id":"physics","type":"file","file":"MainQuest/Physics/MQ - Physics.md","x":820,"y":-260,"width":420,"height":220,"color":"#7f788d"},
+		{"id":"english","type":"file","file":"MainQuest/English/MQ - English.md","x":50,"y":380,"width":420,"height":220,"color":"#74877b"},
+		{"id":"comp","type":"file","file":"SideQuests/SQ - Computational Skills.md","x":-720,"y":260,"width":390,"height":190,"color":"#8c845f"},
+		{"id":"ai","type":"file","file":"SideQuests/SQ - AI and Tools.md","x":-1180,"y":260,"width":380,"height":190,"color":"#777777"},
+		{"id":"fitness","type":"file","file":"SideQuests/SQ - Fitness.md","x":560,"y":380,"width":360,"height":180,"color":"#5f756d"},
+		{"id":"thinking","type":"file","file":"SideQuests/SQ - Philosophy and Thinking.md","x":1000,"y":380,"width":380,"height":180,"color":"#6f6f6f"},
+		{"id":"quant","type":"file","file":"SideQuests/SQ - Quant and Finance.md","x":-1180,"y":-40,"width":380,"height":180,"color":"#756f5f"},
+		{"id":"hidden","type":"file","file":"Hidden/Hidden Quest Index.md","x":0,"y":-620,"width":520,"height":220,"color":"#303030"},
+		{"id":"locked_text","type":"text","text":"LOCKED REGION\\n????\\nUnlock by evidence, not curiosity.","x":610,"y":-650,"width":360,"height":180,"color":"#202020"},
+		{"id":"dashboard","type":"file","file":"00_System/Dataview Dashboard - Command Center.md","x":-460,"y":640,"width":420,"height":180,"color":"#4a4a4a"},
+		{"id":"manual","type":"file","file":"00_System/System Manual - Long Term RPG.md","x":40,"y":640,"width":420,"height":180,"color":"#4a4a4a"}
+	],
+	"edges":[
+		{"id":"e-main-math","fromNode":"math","fromSide":"right","toNode":"main","toSide":"left","color":"#9aa6b2"},
+		{"id":"e-main-physics","fromNode":"main","fromSide":"right","toNode":"physics","toSide":"left","color":"#aaa0b8"},
+		{"id":"e-main-english","fromNode":"main","fromSide":"bottom","toNode":"english","toSide":"top","color":"#91a396"},
+		{"id":"e-math-physics","fromNode":"math","fromSide":"top","toNode":"physics","toSide":"top","color":"#777777"},
+		{"id":"e-comp-main","fromNode":"comp","fromSide":"top","toNode":"math","toSide":"bottom","color":"#8c845f"},
+		{"id":"e-ai-comp","fromNode":"ai","fromSide":"right","toNode":"comp","toSide":"left","color":"#777777"},
+		{"id":"e-quant-prob","fromNode":"quant","fromSide":"right","toNode":"math","toSide":"left","color":"#756f5f"},
+		{"id":"e-fitness-main","fromNode":"fitness","fromSide":"left","toNode":"english","toSide":"right","color":"#5f756d"},
+		{"id":"e-thinking-hidden","fromNode":"thinking","fromSide":"top","toNode":"hidden","toSide":"right","color":"#606060"},
+		{"id":"e-main-hidden","fromNode":"main","fromSide":"top","toNode":"hidden","toSide":"bottom","color":"#505050"},
+		{"id":"e-hidden-locked","fromNode":"hidden","fromSide":"right","toNode":"locked_text","toSide":"left","color":"#333333"},
+		{"id":"e-dashboard-manual","fromNode":"dashboard","fromSide":"right","toNode":"manual","toSide":"left","color":"#555555"}
+	]
+}

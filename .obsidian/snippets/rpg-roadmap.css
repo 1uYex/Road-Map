@@ -1,0 +1,60 @@
+/* RPG Roadmap: low-noise researcher/explorer style */
+
+body {
+  --rpg-bg: #0f1012;
+  --rpg-panel: #17191c;
+  --rpg-line: #3a3d42;
+  --rpg-text: #d8d8d8;
+  --rpg-muted: #8e939b;
+  --rpg-blue: #8fa3b5;
+  --rpg-green: #91a396;
+  --rpg-violet: #aaa0b8;
+}
+
+.markdown-preview-view,
+.markdown-source-view {
+  color: var(--rpg-text);
+}
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3 {
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.markdown-preview-view blockquote {
+  border-left: 2px solid var(--rpg-blue);
+  color: var(--rpg-muted);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.markdown-preview-view table {
+  border: 1px solid var(--rpg-line);
+}
+
+.markdown-preview-view th {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--rpg-text);
+}
+
+.markdown-preview-view td {
+  border-color: var(--rpg-line);
+}
+
+a.internal-link {
+  color: var(--rpg-blue);
+  text-decoration: none;
+}
+
+.tag[href*="rpg/hidden"] {
+  color: #777;
+}
+
+.tag[href*="rpg/mainquest"] {
+  color: var(--rpg-violet);
+}
+
+.tag[href*="rpg/sidequest"] {
+  color: var(--rpg-green);
+}
