@@ -1,1 +1,1 @@
-#
+![[Hidden Quest Template]]
