@@ -18,7 +18,7 @@ They exist to give the future a horizon without turning it into anxiety.
 - [[Paper Writing]]
 - [[Advisor Compatibility]]
 - [[Research Creativity]]
-
+  
 ## Rule
 
 Do not reveal details early. Only add content after the unlock condition has been met in real life.
