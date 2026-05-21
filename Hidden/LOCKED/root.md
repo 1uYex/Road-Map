@@ -1,1 +1,1 @@
-![[Hidden Quest Template]]
+![[00_System/Templates/Root]]

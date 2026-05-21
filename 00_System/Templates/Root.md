@@ -1,7 +1,7 @@
 ---
 type: hidden_quest
 status: locked
-visible_hint: "????"
+visible_hint: ????
 unlock_condition:
 order:
 tags:
