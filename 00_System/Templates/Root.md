@@ -2,7 +2,7 @@
 type: hidden_quest
 status: locked
 visible_hint: ????
-unlock_condition:
+unlock_condition: A level in this semester
 order:
 tags:
   - rpg/hidden
